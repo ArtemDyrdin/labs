@@ -1,0 +1,3 @@
+C:/Users/PAVILION/Desktop/Coding/C++/labs/7lab/out/build/x64-Debug/CMakeFiles/Lab7.dir
+C:/Users/PAVILION/Desktop/Coding/C++/labs/7lab/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/PAVILION/Desktop/Coding/C++/labs/7lab/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
