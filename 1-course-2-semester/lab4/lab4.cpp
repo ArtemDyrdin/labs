@@ -50,7 +50,7 @@ public:
     }
 
     // оператор ++ (постфиксный)
-    Matrix& operator ++(T) {
+    Matrix operator ++(T) {
         Matrix newMatrix = *this;
         for (int i = 0; i < N; i++)
             for (int j = 0; j < M; j++)
