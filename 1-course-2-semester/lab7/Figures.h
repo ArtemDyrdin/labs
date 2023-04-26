@@ -10,7 +10,7 @@ namespace figures {
 
         // переопределение метода родителя
         void getAria() override {
-            std::cout << "Triangle Aria: " << this->m_width * this->m_height * 0.5 << std::endl;
+            std::cout << "Triangle Aria: " << m_width * m_height * 0.5 << std::endl;
         }
     };
 
@@ -21,7 +21,7 @@ namespace figures {
 
         // переопределение метода родителя
         void getAria() override {
-            std::cout << "Rectangle Aria: " << this->m_width * this->m_height << std::endl;
+            std::cout << "Rectangle Aria: " << m_width * m_height << std::endl;
         }
     };
 
@@ -32,7 +32,7 @@ namespace figures {
 
         // переопределение метода родителя
         void getAria() override {
-            std::cout << "Circle Aria: " << this->m_width * 2 * 3.14159 << std::endl;
+            std::cout << "Circle Aria: " << m_width * 2 * 3.14159 << std::endl;
         }
     };
 }
