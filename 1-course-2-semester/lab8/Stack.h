@@ -33,7 +33,7 @@ public:
     }
 
     // добавить элемент в стек
-    void push(T el) {
+    void push(const T& el) {
         if (m_length == m_size)
             throw std::overflow_error("Adding of new element in the stack is impossible");
         m_stack[m_length] = el;
@@ -53,7 +53,7 @@ public:
     }
 
     // вернуть верхний элемент стека
-    T top() {
+    T& top() {
         if (this->empty())
             throw std::logic_error("Seeing of top element is impossible because stack is empty");
         return m_stack[m_length - 1];
