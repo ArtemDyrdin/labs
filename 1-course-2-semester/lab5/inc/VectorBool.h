@@ -3,7 +3,7 @@
 
 #include "Vector.h"
 
-// спецификация шаблона для vector из булевых значений
+// специализация шаблона для vector из булевых значений
 template<>
 class Vector<bool> {
 private:
